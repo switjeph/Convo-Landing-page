@@ -738,6 +738,11 @@ video {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -795,6 +800,14 @@ video {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pe-10 {
+  padding-inline-end: 2.5rem;
+}
+
+.pe-4 {
+  padding-inline-end: 1rem;
 }
 
 .text-center {
