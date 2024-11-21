@@ -54,7 +54,7 @@
     <div class="container mx-auto">
       <div class="py-10">
         <h1 class="text text-center text-5xl font-extrabold pt-16 bg-red-700 md:bg-blue-600 lg:bg-green-700 xl:bg-yellow-500 2xl:bg-indigo-700">Webinars</h1>
-        <p class="text justify-items-center xl:px-72 py-3  text-center text-sm">
+        <p class="text justify-items-center xl:px-72 py-3  text-center text-sm sm:text-lg font-medium">
           In our free time, we some times hold webinars with professionals
           centered around healing, friendships and <br class="hidden lg:block" />family. Our users come to
           quality of the friendships in their lives. From learning how to find
@@ -78,12 +78,12 @@
           </h2>
         </div>
         <div class="px-2  space-y-4 py-4">
-          <p class="">
+          <p class="sm:text-lg">
             Nov 27, 2022 <span class="px-4">
               5:30 PM
             </span>
           </p>
-          <p class="text-xs">
+          <p class="text-xs sm:text-lg font-medium">
             This three part series will focus on strengthening your relationship
             with your partner. Topics will include managing stress, respite and
             taking time off to reconnect, and working together as a team
@@ -109,17 +109,20 @@
     </div>
     <!-- speaker section -->
 
-    <div class="grid grid-cols-1 p-4  items-center  text-wrap container mx-auto">
-      <p class="text text-lg font-medium pb-4 text-center ">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4  items-center  text-wrap container mx-auto">
+     <div>
+       <p class="text text-lg font-medium pb-4 text-center lg:text-left"></p>
         Therapist share knowledge on building <br> Friendships and and
         relationships with family.
       </p>
+     </div>
       <!-- <div class="flex justify-end gap-4  items-center ">
         <img class=" h-72" src="img/Frame 328.jpg" alt="portrait1" />
         <img class="h-72" src="img/Frame 327.jpg" alt="portrait2" />
       </div> -->
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 ">
+     <div class="col-span-2 bg-red-600 p-4">
+       <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
 
         <!-- First Card -->
         <div class="relative rounded-sm overflow-hidden h-96">
@@ -153,6 +156,7 @@
           </div>
         </div>
       </div>
+     </div>
 
     </div>
     <!-- Speaker section -->
@@ -172,10 +176,10 @@
 
 
       <!-- Event Cards Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 h-80 pt-10">
+      <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 pt-10">
 
         <!-- First Card -->
-        <div class="relative rounded-sm overflow-hidden">
+        <div class="relative rounded-sm overflow-hidden h-96">
           <!-- Background Image -->
           <img src="img/Fam1.jpg" alt="Event 1" class="absolute inset-0 w-full h-full object-cover">
 
@@ -192,7 +196,7 @@
 
 
         <!-- Second Card -->
-        <div class="relative rounded-sm overflow-hidden">
+        <div class="relative rounded-sm overflow-hidden h-96">
           <!-- Background Image -->
           <img src="img/cheers1.jpg" alt="Event 1" class="absolute inset-0 w-full h-full object-cover">
 
@@ -211,7 +215,7 @@
         </div>
 
         <!-- Third Card -->
-        <div class="relative bg-white shadow-lg rounded-sm overflow-hidden">
+        <div class="relative bg-white shadow-lg rounded-sm overflow-hidden h-96">
           <!-- Background Image -->
           <img src="img/frnd1.jpg" alt="Event 1" class="absolute inset-0 w-full h-full object-cover">
 
@@ -258,7 +262,7 @@
       </div> -->
     </div>
     <!-- Subscribe newsletter section -->
-    <div class="relative rounded-sm overflow-hidden">
+    <div class="relative rounded-sm overflow-hidden h-96">
       <!-- Background Image -->
       <img src="img/blue-waves.jpg" alt="Event 1" class="absolute inset-0 w-full h-full object-cover">
 
@@ -305,14 +309,14 @@
 
   <!-- footer setion -->
 
-  <footer class="bg-blue-600 text-white py-10">
+  <footer class="bg-blue-600 text-white py-10 px-5">
     <div class="flex text-center gap-1 pb-4">
       <img src="img/mdi_message.svg" alt="logo-img" width="25" class="bg-white" />
       <p class="">Convo</p>
     </div>
 
     <div class="">
-      <div class="grid grid-cols-5">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
 
         <!-- Company section -->
         <div>
